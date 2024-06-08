@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mondrian Project</title>
+    <style>
+        /* 
+    Write your CSS here 
+    Line Colour: #000
+    White: #F0F1EC
+    Red: #E72F24
+    Black: #232629
+    Blue: #004592
+    Yellow: #F9D01E
+    */
+        body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        margin: 0;
+        padding: 0;
+        }
+        .container{
+            
+            display: grid;
+            grid-template-columns: 80px 90px 90px 190px 115px 110px 40px;
+            grid-template-rows: 50px 190px 190px 90px 85px 50px 27px;
+            background-color: black;
+            gap : 13px
+        }
+        .item{
+            background-color: #F0F1EC;
+        }
+        .one{
+            grid-column: span 2;
+            background-color: lightblue;
+        }
+        .two{
+            grid-column: span 2;
+        }
+        .three{
+            grid-column: span 2;
+            background-color: #F9D01E;
+        }
+        .four{
+            background-color: lightblue;
+            grid-row: span 4;
+        }
+        .six{
+            background-color: #E72F24;
+            grid-area: 2/2/4/5;
+        }
+        .seven{
+            grid-column: span 2;
+            background-color: #F9D01E;
+        }
+        .eight{
+            background-color: lightblue;
+            grid-row: span 2;
+        }
+        .eleven{
+            background-color: black;
+            grid-area: 4/2/6/4;
+        }
+        .twelve{
+            background-color: lightblue;
+        }
+        .fifteen{
+            background-color: lightblue;
+        }
+        .thirteen{
+            grid-column: span 2;
+        }
+        .forteen{
+            grid-row: span 3;
+            background-color: #F9D01E;
+        }
+        .sixteen{
+            background-color: #004592;
+            grid-area: 5/5/7/7;
+        }
+        .seventeen{
+            background-color: #E72F24;
+            grid-row: span 3;
+        }
+        .eighteen{
+            background-color: #F9D01E;
+        }
+        .nineteen{
+            grid-area: 6/2/8/4;
+        }
+        .twenty{
+            grid-column: span 3;
+            background-color:#F0F1EC
+        }
+        
+        
+
+        
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item one"></div>
+        <div class="item two"></div>
+        <div class="item three"></div>
+        <div class="item four"></div>
+        <div class="item five"></div>
+        <div class="item six"></div>
+        <div class="item seven"></div>
+        <div class="item eight"></div>
+        <div class="item nine"></div>
+        <div class="item ten"></div>
+        <div class="item eleven"></div>
+        <div class="item twelve"></div>
+        <div class="item thirteen"></div>
+        <div class="item forteen"></div>
+        <div class="item fifteen"></div>
+        <div class="item sixteen"></div>
+        <div class="item seventeen"></div>
+        <div class="item eighteen"></div>
+        <div class="item nineteen"></div>
+        <div class="item twenty"></div>
+        
+    
+    
+    
+</body>
+</html>
